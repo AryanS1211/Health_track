@@ -4,14 +4,17 @@
   margin: 0;
 }
 
+/* Navigation Bar */
 .navbar {
-  position: relative;
-  background-color: rgb(71, 71, 71);
+  position: fixed;
+  background-color: rgb(40, 40, 40);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
 }
-img {
+.c1 img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -29,12 +32,11 @@ img {
 }
 .c2{
    display: flex;
-   align-items: center; 
-   position: absolute;
-   height: 100%;
+   align-items: center;
    right: 0;
-   
+   height: 100%;
 }
+
 .c2 a{
     margin: 30px;
     padding-left: 0px;
@@ -52,3 +54,52 @@ img {
     background-color: black;
     box-shadow: 0 0 10px white;
 }
+
+/* Hero Section */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(chaicohort.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 90px;
+}
+.hero h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgb(118, 255, 20);
+    font-size: 50px;
+}
+.hero p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.hero img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(118, 255, 20);
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px whitesmoke;
+}
+.hero button{
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: rgb(118, 255, 20);
+    font-size: 20px;
+    border: none;
+}
+.hero button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px whitesmoke;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
