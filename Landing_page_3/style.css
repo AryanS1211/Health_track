@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
-    position: fixed;
     width: 100%;
 }
 .nav{
@@ -46,4 +45,38 @@ a:hover{
    background-color: rgb(255, 140, 0);
    color: rgb(255, 255, 255);
    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(chaipatti.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}    
+.hero h1{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+}
+.hero p{
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.hero button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(159, 88, 0);
 }
