@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(39, 39, 39);
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -30,13 +33,13 @@
   margin-top: 50px;
 }
 .cont{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     width: 300px;
     height: 600px;
-    border: 1px solid black;
     border-radius: 15px;
     margin: 15px;
 }
@@ -46,6 +49,7 @@
     flex-direction: column;
     text-align: left;
     width: 80%;
+    color: rgb(252, 252, 252);
 }
 .feature p{
     margin: 18px;
@@ -54,17 +58,19 @@
     width: 70%;
     height: 50px;
     border-radius: 15px;
-    border: none;
     font-size: 15px;
 }
 .pop{
     position: absolute;
     border: 1px solid black;
     border-radius: 25px;
-    width: 50%;
+    width: 65%;
     height: 40px;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
+    top: -22px;
+    background-color: rgb(255, 225, 0);
+    border: none;
 }
 .cont img{
     height: 60px;
@@ -79,7 +85,47 @@
     height: 80px;
     width: 70%;
     border-radius: 15px; 
+    background-color: rgba(51, 48, 48, 0.642);
 }
 .price-tag h1{
     margin-bottom: 10px;
+}
+
+.tag{
+    color: rgb(255, 255, 255);
+}
+.cross{
+    color: rgba(73, 69, 69, 0.722);
+}
+.mrp{
+   color: rgb(229, 83, 83);
+}
+.mrpd{
+   color: rgb(246, 212, 64);
+}
+.month{
+    color: rgb(153, 147, 147);
+}
+
+.Champion{
+    border:2px solid rgb(246, 212, 64);
+    background-color: rgba(246, 213, 64, 0.13);
+}
+.Warrior{
+    border:2px solid rgb(228, 52, 52);
+    background-color:rgba(228, 52, 52, 0.167);
+}
+.Beginner{
+    border:2px solid rgb(71, 71, 71);
+    background-color: rgba(33, 30, 30, 0.395)
+}
+.cham-b{
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid rgb(246, 212, 64);
+    color: rgb(246, 212, 64);
+}
+.war-b{
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid  rgb(228, 52, 52);
+    color:  rgb(228, 52, 52);
 }
