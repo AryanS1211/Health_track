@@ -20,12 +20,14 @@
     height: 100px;
     width: 100px;
 }
+.hero p{
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+}
 .price{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  height: 800px;
-  margin-top: 40px;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 .cont{
     display: flex;
@@ -36,13 +38,14 @@
     height: 600px;
     border: 1px solid black;
     border-radius: 15px;
+    margin: 15px;
 }
 .feature{
     height: 250px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 70%;
+    width: 80%;
 }
 .feature p{
     margin: 18px;
@@ -53,6 +56,15 @@
     border-radius: 15px;
     border: none;
     font-size: 15px;
+}
+.pop{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
 }
 .cont img{
     height: 60px;
@@ -67,4 +79,7 @@
     height: 80px;
     width: 70%;
     border-radius: 15px; 
+}
+.price-tag h1{
+    margin-bottom: 10px;
 }
