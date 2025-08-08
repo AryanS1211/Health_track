@@ -77,5 +77,3 @@ Open Oracle SQL Developer
 Run create_tables.sql
 
 Run insert_data.sql
-
-📫 Connect with me on [LinkedIn](#) (www.linkedin.com/in/shivani-kodape-b91175308)
